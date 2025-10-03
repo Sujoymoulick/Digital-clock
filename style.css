@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.digital-glow {
+  text-shadow: 0 0 5px #38a169, 0 0 10px #38a169, 0 0 15px #1c64f2;
+}
+
+#three-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.clock-overlay {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #10b981;
+  z-index: 10;
+}
